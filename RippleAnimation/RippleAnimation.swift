@@ -28,7 +28,7 @@ public extension UIView {
         var fadeAnimateDuration = DefaultAlphaAnimateDuration
         var completionHandler: (() -> Void)? = nil
 
-        init(color: UIColor) {
+        public init(color: UIColor) {
             self.color = color
         }
     }
